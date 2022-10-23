@@ -1,4 +1,4 @@
-package com.dio.poo.storagy;
+package com.dio.poo.service;
 
 import com.dio.poo.domain.model.Employee;
 
