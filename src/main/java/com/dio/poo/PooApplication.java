@@ -4,6 +4,8 @@ import com.dio.poo.domain.model.Address;
 import com.dio.poo.domain.model.Departament;
 import com.dio.poo.domain.model.Employee;
 import com.dio.poo.domain.model.Person;
+import com.dio.poo.storagy.EmployeeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +19,8 @@ public class PooApplication implements CommandLineRunner {
 		SpringApplication.run(PooApplication.class, args);
 	}
 
+	@Autowired
+	EmployeeService employeeService;
 	@Override
 	public void run(String... args) throws Exception {
 		Address address = Address.builder()
@@ -34,5 +38,7 @@ public class PooApplication implements CommandLineRunner {
 		employee.setAge(31);
 		employee.setAddress(address);
 		employee.setProfession("Development Java Jr");
+
+		employeeService.saveCSV(employee);
 	}
 }

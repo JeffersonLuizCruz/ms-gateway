@@ -4,7 +4,7 @@ import com.dio.poo.domain.model.Employee;
 
 public interface EmployeeService {
 
-    void save(Employee employee);
-    Employee findByName(String name);
-    void deleteByName(String name);
+    void saveCSV(Employee employee);
+    Employee findByNameCSV(String name);
+    void deleteByNameCSV(String name);
 }
