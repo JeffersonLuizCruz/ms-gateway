@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor @AllArgsConstructor
 public abstract class Person {
-    private String name;
-    private Integer age;
     private Address address;
     private String profession;
 

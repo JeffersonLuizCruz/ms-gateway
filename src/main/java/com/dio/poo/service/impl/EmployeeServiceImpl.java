@@ -1,19 +1,19 @@
 package com.dio.poo.service.impl;
 
-import com.dio.poo.domain.model.Address;
-import com.dio.poo.domain.model.Departament;
-import com.dio.poo.domain.model.Employee;
-import com.dio.poo.service.EmployeeService;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-
 import java.io.IOException;
-import java.math.BigDecimal;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.dio.poo.domain.model.Address;
+import com.dio.poo.domain.model.Departament;
+import com.dio.poo.domain.model.Employee;
+import com.dio.poo.service.EmployeeService;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
@@ -54,8 +54,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         valueStr += employee.getDepartament() != null ? Departament.DEVELOPMENT + SEPARATOR : "" + SEPARATOR;
         valueStr += employee.getIsActive() != null ? String.valueOf(employee.getIsActive()) + SEPARATOR : "" + SEPARATOR;
-        valueStr += employee.getName() != null ? employee.getName() + SEPARATOR: "" + SEPARATOR;
-        valueStr += employee.getAge() != null ? String.valueOf(employee.getAge()) + SEPARATOR: "" + SEPARATOR;
         valueStr += employee.getAddress() != null ? concatValueAdsress(employee.getAddress()) + SEPARATOR : "" + SEPARATOR;
         valueStr += employee.getProfession() != null ? employee.getProfession() + SEPARATOR : "" + SEPARATOR;
         valueStr += employee.getWage() != null ? String.valueOf(employee.getWage()) + SEPARATOR: "" + SEPARATOR;
