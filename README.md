@@ -17,11 +17,12 @@ Programador
 #05 - Informe seu salário:
 14526
 ```
+
 Saída do arquivo está configurado para o caminho:
 ```
 "C:\temp\storage\user\user-efa1b253-7723-4cc3-ab9f-9ea27dabad84.csv"
 ```
-
+<br>
 #### :page_with_curl: Exemplo de entrada de dados <a name="-diagrama"/></a>
 <h1 align="center">
     <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/01-scanner.png" />
