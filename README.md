@@ -5,7 +5,7 @@
 ### Como o sistema funciona:
 O sistema recebe informação de entrada e os dados são gravados em formatado .csv
 Exemplo de entrada:
-
+```
 #01 - Informe seu endereço:
 Cavalo Marinho
 #02 - Informe seu Estado:
@@ -16,7 +16,7 @@ Pernambuco
 Programador
 #05 - Informe seu salário:
 14526
-
+```
 Saída do arquivo está configurado para o caminho:
 ```
 "C:\temp\storage\user\user-efa1b253-7723-4cc3-ab9f-9ea27dabad84.csv"
