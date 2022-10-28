@@ -2,7 +2,7 @@
 
 > Esse é um simples projeto com objetivo de colocar em prática o conceito de POO.
 
-### Como o sistema funciona:
+<h4> Como o sistema funciona:</h4>
 O sistema recebe informação de entrada e os dados são gravados em formatado .csv
 Exemplo de entrada:
 ```
@@ -21,6 +21,11 @@ Saída do arquivo está configurado para o caminho:
 ```
 "C:\temp\storage\user\user-efa1b253-7723-4cc3-ab9f-9ea27dabad84.csv"
 ```
+
+#### :page_with_curl: Exemplo de entrada de dados <a name="-diagrama"/></a>
+<h1 align="center">
+    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/01-scanner.png" />
+</h1>
 
 ## Caso de Uso - Registro de um Pedido
 
