@@ -22,11 +22,15 @@ Saída do arquivo está configurado para o caminho:
     <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/02-storage.png" />
 </h1>
 
-
-
-#### :page_with_curl: Conteúdo do arquivo CSV <a name="-diagrama"/></a>
+#### :page_with_curl: Local Storage <a name="-diagrama"/></a>
 <h1 align="center">
-    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/03-storage-csv.png" />
+    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/02-storage.png" />
+</h1>
+
+
+#### :page_with_curl: Diagrama de classe<a name="-diagrama"/></a>
+<h1 align="center">
+    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/Diagrama.png" />
 </h1>
 
 ## Tecnologia:
