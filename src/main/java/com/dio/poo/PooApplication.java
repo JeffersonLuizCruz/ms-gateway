@@ -42,17 +42,19 @@ public class PooApplication implements CommandLineRunner {
 		int number = input.nextInt();
 		address.setNumber(number);
 	
+		employee.setAddress(address);
+		employee.setDepartament(Departament.DEVELOPMENT);
+		employee.setIsActive(true);
+		
 		System.out.println("Informe sua profissão:");
-		String professiton = input.nextLine();
+		String professiton = input.next();
 		employee.setProfession(professiton);
 		
 		System.out.println("Informe seu salário:");
 		String wage = input.next();
 		employee.setWage(new BigDecimal(wage));
 
-		employee.setAddress(address);
-		employee.setDepartament(Departament.DEVELOPMENT);
-		employee.setIsActive(true);
+		input.close();
 		
 		employeeService.saveCSV(employee);
 	}

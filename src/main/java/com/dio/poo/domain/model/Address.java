@@ -1,14 +1,12 @@
 package com.dio.poo.domain.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data @Builder
+@Data
 @AllArgsConstructor @NoArgsConstructor
 public class Address {
-
     private String street;
     private String district;
     private Integer number;
