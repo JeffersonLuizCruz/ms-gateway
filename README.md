@@ -4,7 +4,6 @@
 
 <h4> Como o sistema funciona:</h4>
 O sistema recebe informação de entrada e os dados são gravados em formatado .csv
-<br>
 Exemplo de entrada:
 ```
 #01 - Informe seu endereço:
@@ -23,18 +22,14 @@ Saída do arquivo está configurado para o caminho:
 "C:\temp\storage\user\user-efa1b253-7723-4cc3-ab9f-9ea27dabad84.csv"
 ```
 
-:page_with_curl: Exemplo de entrada de dados <a name="-diagrama"/></a>
+#### :page_with_curl: Exemplo de entrada de dados <a name="-diagrama"/></a>
 <h1 align="center">
     <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/01-scanner.png" />
 </h1>
 
-## Caso de Uso - Registro de um Pedido
-
-
-
-## :page_with_curl: Diagrama de Classe <a name="-diagrama"/></a>
+#### :page_with_curl: Diagrama de Classe <a name="-diagrama"/></a>
 <h1 align="center">
-    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/digital-innovation-one/blob/main/src/main/resources/template/Diagrama.png" />
+    <img alt="Ecommerce" src="https://github.com/JeffersonLuizCruz/financial/blob/main/src/main/resources/tamplates/Classe%20UML3.png" />
 </h1>
 
 ## Tecnologia:
