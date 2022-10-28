@@ -30,15 +30,15 @@ public class PooApplication implements CommandLineRunner {
 		Address address = new Address();
 		Employee employee = new Employee();
 		
-		System.out.println("Informe seu endereço:");
+		System.out.println("#01 - Informe seu endereço:");
 		String street = input.nextLine();
 		address.setStreet(street);
 		
-		System.out.println("Informe seu Estado:");
+		System.out.println("#02 - Informe seu Estado:");
 		String district = input.nextLine();
 		address.setDistrict(district);
 		
-		System.out.println("Informe o número:");
+		System.out.println("#03 - Informe o número:");
 		int number = input.nextInt();
 		address.setNumber(number);
 	
@@ -46,14 +46,15 @@ public class PooApplication implements CommandLineRunner {
 		employee.setDepartament(Departament.DEVELOPMENT);
 		employee.setIsActive(true);
 		
-		System.out.println("Informe sua profissão:");
+		System.out.println("#04 - Informe sua profissão:");
 		String professiton = input.next();
 		employee.setProfession(professiton);
 		
-		System.out.println("Informe seu salário:");
+		System.out.println("#05 - Informe seu salário:");
 		String wage = input.next();
 		employee.setWage(new BigDecimal(wage));
 
+		System.out.println("##############  FIM ###############");
 		input.close();
 		
 		employeeService.saveCSV(employee);
